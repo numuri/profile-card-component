@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body class="bg-darkCyan bg-contain md:bg-no-repeat md:bg-left">
+    <div class="container max-w-md mx-auto mt-16 mb-5 md:mt-48 relative">
+      <div
+        class="mx-5 rounded-xl overflow-hidden text-center bg-white shadow-2xl md:mx-0"
+      >
+        <div
+          class="w-full h-40"
+          style="background-image: url(images/bg-pattern-card.svg)"
+        >
+          <img
+            src="images/image-victor.jpg"
+            alt="image-victor"
+            class="rounded-full w-28 h-28 overflow-hidden border-white border-[6px] mx-auto relative top-[115px]"
+          />
+        </div>
+        <div class="pt-[4.5rem]">
+          <h1 class="text-lg font-bold mb-2">
+            Victor Crest
+            <span class="text-darkGrayishBlue font-thin ml-2">26</span>
+          </h1>
+          <p class="font-thin text-darkGray mb-7">London</p>
+          <hr />
+          <div class="flex justify-around py-5">
+            <div class="font-bold">
+              <h2 class="text-lg">80K</h2>
+              <p class="font-thin text-xs text-darkGray">Followers</p>
+            </div>
+            <div class="font-bold">
+              <h2 class="text-lg">803K</h2>
+              <p class="font-thin text-xs text-darkGray">Likes</p>
+            </div>
+            <div class="font-bold">
+              <h2 class="text-lg">1.4K</h2>
+              <p class="font-thin text-xs text-darkGray">Photos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/numuri" target="_blank">Numuri</a>.
+    </div>
+  </body>
+</html>
